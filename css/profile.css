@@ -1,0 +1,58 @@
+html{
+    font-family: Georgia,times new roman,Times,serif;
+
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration : none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+#profileImg{
+    width : 300px;
+    height : 500px;
+}
+#header{
+    border-bottom: solid 0.1em ;
+    border-bottom-color : grey;
+    margin-bottom: 20px;
+    margin-top : 40px;
+    height : 150px;
+}
+#nav{
+    margin-top: 5%;
+    float : right;
+}
+#header #title{
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    left : 580px;
+}
+#header li{
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#contact span{
+    display: block;
+}
+#sideTab{
+    width : 25%;
+    float: left;
+    margin-top: 20px;
+    
+}
+#contents{
+    margin-top: 100px;
+}
+#textArea p{
+    font-size: 25px;
+}
+
+
