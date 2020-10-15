@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>프로필</title>
-        <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
-        <link rel = "stylesheet" type = "text/css" href = "../css/profile.css">
-    </head>
-    <body>
-        <div id = "wrap">
-            <div id = "header">
-                <span id = "title">Developer Park JaeHun</span> 
-                <div id = "nav">
-                    <ul class = "menu">
-                        <li><a href = "#">HOME</a></li>
-                        <li><a href = "#">PROJECTS</a></li>
-                        <li><a href = "https://kkopark73.tistory.com" target = "_blank">BLOG</a></li>
-                    </ul> 
-                </div>               
-            </div>
-            <div id = "sideTab">
-                <img src="../images/profile.jpg" alt="프로필 이미지" id = "profileImg"/>
-                <div id = "contact">
-                    <h4>Contact</h4>
-                    <span id = "phoneNum"><i class="fas fa-phone"></i>&nbsp; 010-2816-0073</span>
-                    <span id = "email"><i class="fas fa-envelope-open"></i>&nbsp; jaehunb350@gmail.com</span>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>프로필</title>
+    <link rel="stylesheet" type="text/css" href="../css/profile.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/958f20794e.js" crossorigin="anonymous"></script>
+    
+  </head>
 
-            <div id = "contents">
-                <div id = "textArea">
-                    <p>Hello, my name is Jaehun Park. I am a Front /Back End Developer living in Seoul Korea.</p><br/>
-                </div>
-                <div id = skill>
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>Java</li>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>React</li>
-                        <li>nodeJs</li>
-                    </ul>
-                </div>
-            </div>
+  <body>
+    <div id = "container">
+      <header class = "header">
+        <div class = "profile_logo">
+          <i class="fab fa-react"></i>
+          <a>Jae Hun Park</a>
         </div>
-    </body>
+        <ul class = "profile_menu">
+          <li><a href = "https://kkopark73.tistory.com">Blog</a></li>
+          <li><a href = "#">Projects</a></li>
+          <li><a href = "#">FAQ</a></li>
+          
+        </ul>
+        <div class = "git">
+          <a href = "https://github.com/qkrwogns9703">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <a href = "#"  class ="side_btn">
+          <i class="fas fa-bars"></i>
+        </a>
+      </header>
+
+      <section id = "content">
+        <div id = "contact">
+          <span id = "profile_img">
+            <img src = "../images/profile3.png"/>
+          </span>
+
+          <ul id = "info">
+            <li>
+              <i class="far fa-envelope"></i>
+              jaehunb350@gmail.com
+            </li>
+            <li>
+              <i class="fas fa-mobile"></i>
+              010-2816-0073
+            </li>
+          </ul>
+
+        </div>
+
+        <div id = "intro">
+
+        </div>
+      </section>
+    </div>
+    <script src = "../js/index.js" defer></script>
+  </body>
 </html>
